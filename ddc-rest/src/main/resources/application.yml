@@ -6,9 +6,9 @@ spring:
       name: ddc-rest
   datasource:
       name: test
-      url: jdbc:mysql://${MYSQL_HOST:rm-uf6p6lsw9at9z1xkexo.mysql.rds.aliyuncs.com}:${MYSQL_PORT:3306}/kfcoding_research?useUnicode=true&characterEncoding=UTF8
+      url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/kfcoding_research?useUnicode=true&characterEncoding=UTF8
       username: root
-      password: 123qwe!@#
+      password: root
       # 使用druid数据源
       type: com.alibaba.druid.pool.DruidDataSource
       driver-class-name: com.mysql.jdbc.Driver
